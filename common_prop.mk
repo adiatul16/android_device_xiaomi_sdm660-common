@@ -289,7 +289,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_hwc=0 \
     debug.sf.gpu_comp_tiling=1 \
     debug.sf.recomputecrop=0 \
-    persist.hwc.ptor.enable=true
+    persist.hwc.ptor.enable=true \
+    debug.sdm.support_writeback=0
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
