@@ -33,8 +33,6 @@ endif
 
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
-$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
-$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
 # Common Tree Path
 COMMON_PATH := device/xiaomi/sdm660-common
@@ -153,9 +151,6 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
-# Boot animation
-TARGET_BOOTANIMATION_SIZE := 1080p
-
 # Broadcastradio
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
@@ -167,7 +162,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
     vendor.qti.hardware.camera.device@1.0 \
-    Snap
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
@@ -337,10 +331,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_sdm660
 
-# LiveDisplay native
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -384,8 +374,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(COMMON_PATH)/overlay \
-    $(COMMON_PATH)/overlay-lineage
+    $(COMMON_PATH)/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
