@@ -667,7 +667,6 @@ product/framework/com.qualcomm.qti.uceservice-V2.1-java.jar|f9dadb1b224d100ecc0a
 product/framework/vendor.qti.ims.callinfo-V1.0-java.jar|a01874e994d2674d538f86de39e9ccbf6ef3fc8c
 product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar|f2a2e5554ad6ae1363a9aa76c6d0e6732bbdc7fb
 product/lib/libdiag_system.so|2f3c04bf934f1b3466ab2b2a822c7f6262cab0cb
-vendor/lib/lib-imsvtcore.so|2e86b2d24f1d76c254c717b8e3a333ecfb1be25b
 product/lib/vendor.qti.ims.rcsconfig@1.1.so|6fedb3aefba03e350beaa0e5d37266142827c346
 product/lib/vendor.qti.imsrtpservice@2.0.so|da4060a64179772801942946e71a655e76936157
 product/lib/vendor.qti.imsrtpservice@2.1.so|5074623f761ef54a6378ba09cbea31c60a9363fd
@@ -703,14 +702,11 @@ vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so|0903bbc85585a86938c0a4d0bcabae
 vendor/lib64/com.qualcomm.qti.uceservice@2.0.so|9c69722699df9285ab9a7aecb4e14ea6d1b173fe
 vendor/lib64/com.qualcomm.qti.uceservice@2.1.so|3e7de5bbb217b69640638594e00eaffdff620932
 vendor/lib64/lib-imscmservice.so|bd5e71cf5d98db1adfb3f1987886ec36437ddb14
-vendor/lib64/lib-imsdpl.so|bc0440a4e4ee7a6a6cf3aa764c3a31cf89e20c33
 vendor/lib64/lib-imsqimf.so|b977b4a774eaa5ee737bd3fb13dc5a891d3af1ba
 vendor/lib64/lib-imsrcs-v2.so|70565a7cdbbf932287644ee269c642a2df0e2747
 vendor/lib64/lib-imsrcsbaseimpl.so|ab1a278f0a2c63b082775468810a0b2903304078
-vendor/lib64/lib-imsvtcore.so|c8f1c6dd2bc105ad754d136cd6051bd094945fcb
 vendor/lib64/lib-imsxml.so|f12125619011f2ae4819f9c7f674c8897c5b5263
 vendor/lib64/lib-rtpcommon.so|62cc18ea802b8555a9d05fa1fbd844316e1b0e03
-vendor/lib64/lib-rtpcore.so|2c12b5c75e8a1c308740df0e10553fa753905e28
 vendor/lib64/lib-rtpsl.so|d44720235f0975163069c63bb74dbb11c8ebfa42
 vendor/lib64/lib-siputility.so|58ce6eba81ac558e0affdf7485e2a27cdcd2b4a6
 vendor/lib64/lib-uceservice.so|3c42bacce4d4f1b151f1981ba8d8294b53d3baaa
@@ -728,6 +724,12 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|3f72f3b305fdf562bcc1538cfad68c840f7
 vendor/lib64/vendor.qti.imsrtpservice@2.0.so|45fd8c212f51977663082b496755911c98658c49
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|1673fd7b807dcc317cc73c82c2773d5bbb0302df
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|780288d1d8d79fa16fbbe9bce6edaa4e1424cdb1
+
+# Radio (IMS) - from LA.UM.8.2.r1-06200-sdm660.0
+vendor/lib/lib-imsvtcore.so|062353a1ae3805aa3ae5eb8b099cc80f24043743
+vendor/lib64/lib-imsvtcore.so|3e8f65b548a113d5c56d8dc7071996b57e8385e5
+vendor/lib64/lib-rtpcore.so|0613854e2edf2789b2d7411da2ab545436bf67a9
+vendor/lib64/lib-imsdpl.so|6f2f6ad20792561595c29ae7469d938b82608523
 
 # Sensors - from LA.UM.8.2.r1-06500-sdm660.0
 product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|0441544cec7480bc8c746320bd264fc208fd0947
