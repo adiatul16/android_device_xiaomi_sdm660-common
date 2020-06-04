@@ -138,6 +138,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     android.hardware.bluetooth.audio@2.0-impl \
     liba2dpoffload \
+    libbtconfigstore \
     libbthost_if \
     libhdmiedid \
     libhfp \
