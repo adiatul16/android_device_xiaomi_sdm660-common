@@ -126,10 +126,6 @@ PRODUCT_PACKAGES += \
     AntHalService \
     antradio_app
 
-# AuthSecret
-PRODUCT_PACKAGES += \
-    android.hardware.authsecret@1.0-service
-
 # Biometrics
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660
