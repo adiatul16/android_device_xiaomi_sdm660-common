@@ -252,6 +252,9 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/gps/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     $(COMMON_PATH)/gps/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
 
+# Google Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Healthd
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service
