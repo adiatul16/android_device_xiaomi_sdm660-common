@@ -110,9 +110,6 @@ TARGET_KERNEL_CLANG_COMPILE := true
 # CNE and DPM
 BOARD_USES_QCNE := true
 
-# ConfigFS
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
-
 # Display
 BOARD_USES_ADRENO := true
 TARGET_USES_HWC2 := true
