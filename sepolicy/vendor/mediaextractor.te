@@ -1,0 +1,2 @@
+# Allow appdomain to get vendor_camera_prop
+allow mediaextractor vendor_overlay_file:file getattr;

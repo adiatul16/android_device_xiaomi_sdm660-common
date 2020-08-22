@@ -35,6 +35,7 @@ allow hal_fingerprint_sdm660 mnt_user_file:lnk_file r_file_perms;
 allow hal_fingerprint_sdm660 sdcardfs:dir search;
 allow hal_fingerprint_sdm660 storage_file:dir search;
 allow hal_fingerprint_sdm660 storage_file:lnk_file read;
+allow hal_fingerprint_sdm660 media_rw_data_file:dir search;
 
 allow hal_fingerprint_sdm660 hal_perf_hwservice:hwservice_manager find;
 allow hal_fingerprint_sdm660 rootfs:dir read;
@@ -47,7 +48,6 @@ allow hal_fingerprint_sdm660 hal_fingerprint_sdm660:netlink_socket { create bind
 
 allow hal_fingerprint_sdm660 self:netlink_socket create_socket_perms_no_ioctl;
 
-allow hal_fingerprint_sdm660 hal_perf_hwservice:hwservice_manager find;
 binder_call(hal_fingerprint_sdm660, hal_perf_default)
 
 r_dir_file(hal_fingerprint_sdm660, firmware_file)
