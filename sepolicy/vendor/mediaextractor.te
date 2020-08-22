@@ -1,0 +1,2 @@
+# Allow mediaextractor to read vendor_overlay_file
+allow mediaextractor vendor_overlay_file:file getattr;

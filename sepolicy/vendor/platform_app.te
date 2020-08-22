@@ -1,0 +1,4 @@
+# Allow platform_app to set *_prop
+set_prop(platform_app, camera_prop)
+set_prop(platform_app, vendor_camera_prop)
+set_prop(platform_app, vendor_default_prop)
